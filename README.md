@@ -2,7 +2,7 @@
 ## Setup the website
 	docker-compose up
 
-## Stop the cluster: 
+## Stop the website 
 	docker-compose down
 
 ## Delete
