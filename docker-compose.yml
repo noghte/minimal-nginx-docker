@@ -6,7 +6,7 @@ services:
       - "80:80" #The left one is your device, right one is inside the container
     volumes:
       - ./default.conf:/etc/nginx/conf.d/default.conf
-      - ./index.html:/var/www/website/index.html
+      - ./html/:/var/www/website/
     networks:
       - esnet
 
